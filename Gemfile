@@ -30,6 +30,8 @@ gem 'jbuilder', '~> 1.2'
 
 gem 'koala', '~> 2.0'
 
+gem 'dotenv-rails'
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false

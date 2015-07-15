@@ -1,12 +1,22 @@
+require 'rubygems'
+require 'httparty'
+
 class PostManager
+  include HTTParty
+
   def self.get_posts(fan_page_id, limit = 25)
-    begin
-      facebook = Koala::Facebook::API.new(ENV["FACEBOOK_ACCESS_TOKEN"])
-      response = facebook.get_object("#{fan_page_id}/feed?fields=from{name},message&limit=#{limit}")
-      response_objects = convert_to_object(response)
-    rescue Koala::Facebook::APIError => e
-      nil
-    end
+    uri = "https://graph.facebook.com/#{fan_page_id}/feed"
+    options = {
+      query: {
+        access_token: ENV["FACEBOOK_ACCESS_TOKEN"],
+        fields: "from{name},message",
+        limit: limit,
+        format: "json"
+      }
+    }
+
+    response = HTTParty.get(uri, options)
+    response_objects = convert_to_object(response["data"]) unless response["data"].nil?
   end
 
   private

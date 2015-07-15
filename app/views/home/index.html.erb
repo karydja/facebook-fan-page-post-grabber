@@ -1,1 +1,15 @@
-Home#Index
+<h1>Pesquise pelos posts de uma fan page</h1>
+
+<%= form_tag do %>
+  <%= label_tag "Insira o id de uma fan page:" %>
+
+  <br>
+
+  <%= text_field_tag :fan_page_id %>
+
+  <br><br>
+
+  <div>
+    <%= submit_tag "Pesquisar" %>
+  </div>
+<% end %>

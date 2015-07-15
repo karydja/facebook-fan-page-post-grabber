@@ -4,12 +4,13 @@ require 'httparty'
 class PostManager
   include HTTParty
 
-  def self.get_posts(fan_page_id, limit = 25)
+  def self.get_posts(fan_page_id, limit = 25, fields = [])
+    fields = ["from{name}", "message"] if fields.blank?
     uri = "https://graph.facebook.com/#{fan_page_id}/feed"
     options = {
       query: {
         access_token: ENV["FACEBOOK_ACCESS_TOKEN"],
-        fields: "from{name},message",
+        fields: fields.join(","),
         limit: limit,
         format: "json"
       }

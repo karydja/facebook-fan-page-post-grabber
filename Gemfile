@@ -40,6 +40,7 @@ end
 group :development do
   gem 'pry'
   gem 'better_errors'
+  gem 'uikit'
 end
 
 # Use ActiveModel has_secure_password

@@ -6,25 +6,34 @@ A very very tiny simple post grabber from Facebook fan pages.
 
 ## Installation
 
-First the typical bundle install:
+First do the typical bundle install:
 
 ```shell
 bundle install
 ```
 
-And then you should generate a secret_key_base and add it to the config/initializers/secret_token.rb
+After that you should rename .env.sample to .env.
 
 ```shell
-bundle exec rake secret
+mv .env.sample .env
 ```
 
-Dirty one-liner 
+You should also generate a secret_key_base and put it in your .env where it is noted.
+
 ```shell
-cd facebook-group-post-grabber
-echo "FacebookGroupPostGrabber::Application.config.secret_key_base = '$(bundle exec rake secret)'" > config/initializers/secret_token.rb
+$ bundle exec rake secret
+AB129090DEADBEEFD00DADCAFEBABE
 ```
 
-Last but not least, .env.sample to .env and set your app token (you can get one from facebook after registering your app in [here](https://developers.facebook.com/apps/async/create/platform-setup/dialog/))
+```
+SECRET_TOKEN="AB129090DEADBEEFD00DADCAFEBABE"
+```
+
+Last but not least, put your app token (you can get one from Facebook after registering your app in [here](https://developers.facebook.com/apps/async/create/platform-setup/dialog/)) in .env where it is noted.
+
+```
+FACEBOOK_ACCESS_TOKEN="12345567890|53C3TC0DE53C3TC0DE53C3TC0DE"
+```
 
 ## Tests
 

@@ -38,6 +38,9 @@ group :development do
   gem 'pry'
   gem 'better_errors'
   gem 'uikit'
+end
+
+group :test do
   gem 'rspec-rails'
 end
 

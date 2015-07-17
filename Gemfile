@@ -38,6 +38,7 @@ group :development do
   gem 'pry'
   gem 'better_errors'
   gem 'uikit'
+  gem 'rspec-rails'
 end
 
 # Use ActiveModel has_secure_password

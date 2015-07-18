@@ -1,0 +1,84 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://graph.facebook.com/AFantasticaFabricaDeDocinhos/feed?access_token=861374203939234%7CNHquhbox8Uvjd8RyjTEnQSW_PqQ&fields=from%7Bname%7D,message&limit=25
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      X-Fb-Trace-Id:
+      - HU/VkdjUoBd
+      X-Fb-Rev:
+      - '1840672'
+      Etag:
+      - '"54e3720859597bd1bdbe0322c8e86c45bf47e10b"'
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - private, no-cache, no-store, must-revalidate
+      Facebook-Api-Version:
+      - v2.4
+      Expires:
+      - Sat, 01 Jan 2000 00:00:00 GMT
+      Vary:
+      - Accept-Encoding
+      X-Fb-Debug:
+      - 9aRbb1qX74XU58iyLYwQjPwD/pIHm54vmY+72hFQArlOxyCJ/sNugGnMsTrEMPUPCvW5oQd1l2ghJwzDuAkAUQ==
+      Date:
+      - Sat, 18 Jul 2015 03:00:19 GMT
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '1077'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"data":[{"from":{"name":"A Fant\u00e1stica F\u00e1brica de Docinhos","id":"441911812556901"},"message":"Para
+        garantir um domingo de p\u00e1scoa com um lindo e delicioso ovo de chocolate
+        da Fant\u00e1brica fa\u00e7a seu pedido at\u00e9 a quarta-feira (01\/04) ;)
+        \u003C3","id":"441911812556901_784431314971614"},{"from":{"name":"A Fant\u00e1stica
+        F\u00e1brica de Docinhos","id":"441911812556901"},"message":"Anivers\u00e1rio
+        de Priscila, super lindo! Tudo muito delicado, organizado pela Cestas Pedacinho
+        do C\u00e9u com bolo da Fant\u00e1brica! Parceria que d\u00e1 certo!","id":"441911812556901_777903255624420"},{"from":{"name":"A
+        Fant\u00e1stica F\u00e1brica de Docinhos","id":"441911812556901"},"id":"441911812556901_777898075624938"},{"from":{"name":"A
+        Fant\u00e1stica F\u00e1brica de Docinhos","id":"441911812556901"},"id":"441911812556901_774032359344843"},{"from":{"name":"A
+        Fant\u00e1stica F\u00e1brica de Docinhos","id":"441911812556901"},"id":"441911812556901_774029902678422"},{"from":{"name":"A
+        Fant\u00e1stica F\u00e1brica de Docinhos","id":"441911812556901"},"id":"441911812556901_774023479345731"},{"from":{"name":"A
+        Fant\u00e1stica F\u00e1brica de Docinhos","id":"441911812556901"},"id":"441911812556901_645878375493576"},{"from":{"name":"A
+        Fant\u00e1stica F\u00e1brica de Docinhos","id":"441911812556901"},"message":"Festa
+        feita com muito carinho para Sofia ;)","id":"441911812556901_645877585493655"},{"from":{"name":"A
+        Fant\u00e1stica F\u00e1brica de Docinhos","id":"441911812556901"},"message":"Fazendo
+        uma crian\u00e7a Feliz! ^^","id":"441911812556901_642957542452326"},{"from":{"name":"A
+        Fant\u00e1stica F\u00e1brica de Docinhos","id":"441911812556901"},"id":"441911812556901_617989498282464"},{"from":{"name":"A
+        Fant\u00e1stica F\u00e1brica de Docinhos","id":"441911812556901"},"message":"Para
+        o Dia das M\u00e3es! ;D","id":"441911812556901_612471742167573"},{"from":{"name":"A
+        Fant\u00e1stica F\u00e1brica de Docinhos","id":"441911812556901"},"message":"Muito
+        amor =P","id":"441911812556901_604724499608964"},{"from":{"name":"A Fant\u00e1stica
+        F\u00e1brica de Docinhos","id":"441911812556901"},"id":"441911812556901_600774303337317"},{"from":{"name":"A
+        Fant\u00e1stica F\u00e1brica de Docinhos","id":"441911812556901"},"id":"441911812556901_600876853327062"},{"from":{"name":"A
+        Fant\u00e1stica F\u00e1brica de Docinhos","id":"441911812556901"},"id":"441911812556901_600774923337255"},{"from":{"name":"A
+        Fant\u00e1stica F\u00e1brica de Docinhos","id":"441911812556901"},"id":"441911812556901_600774126670668"},{"from":{"name":"A
+        Fant\u00e1stica F\u00e1brica de Docinhos","id":"441911812556901"},"message":"Aproveitem!
+        ;D","id":"441911812556901_600767900004624"},{"from":{"name":"A Fant\u00e1stica
+        F\u00e1brica de Docinhos","id":"441911812556901"},"id":"441911812556901_542330175848397"},{"from":{"name":"A
+        Fant\u00e1stica F\u00e1brica de Docinhos","id":"441911812556901"},"id":"441911812556901_521229521291796"},{"from":{"name":"A
+        Fant\u00e1stica F\u00e1brica de Docinhos","id":"441911812556901"},"id":"441911812556901_509689019112513"},{"from":{"name":"A
+        Fant\u00e1stica F\u00e1brica de Docinhos","id":"441911812556901"},"id":"441911812556901_509688712445877"}],"paging":{"previous":"https:\/\/graph.facebook.com\/v2.4\/441911812556901\/feed?fields=from\u00257Bname\u00257D,message&limit=25&since=1427467737&access_token=861374203939234|NHquhbox8Uvjd8RyjTEnQSW_PqQ&__paging_token=enc_AdD2ZCTc4V9A7gkaDcSL6F9eULCjD5HjBlOgR752r8HKJPzZBSDFUghPP3V4arQgY8HlB9Jxomwj9VgZAMi9ZAEu9ekIY9PlytxHTVgkMalAB6sFlwZDZD&__previous=1","next":"https:\/\/graph.facebook.com\/v2.4\/441911812556901\/feed?fields=from\u00257Bname\u00257D,message&limit=25&access_token=861374203939234|NHquhbox8Uvjd8RyjTEnQSW_PqQ&until=1379797575&__paging_token=enc_AdBC1bM8trBCZChZAG0KoQQp5svw7CfJVaAWVWsuMH3ZB534NRNqLLTUb7he1iQAUKzk7x9G8txuwHggCZA9Lvw9mxJRARrtFBXvtt9YUBPRB8FZCdAZDZD"}}'
+    http_version: 
+  recorded_at: Sat, 18 Jul 2015 03:00:19 GMT
+recorded_with: VCR 2.9.3

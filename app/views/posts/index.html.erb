@@ -1,0 +1,11 @@
+<h1>Resultados encontrados</h1>
+
+<%= link_to "Realizar outra pesquisa", root_path %>
+
+<br><br>
+
+<% if @posts.nil? %>
+  <h3>Nenhum resultado encontrado com o parâmetro informado</h3>
+<% else %>
+  <%= render partial: 'posts/post', collection: @posts %>
+<% end %>

@@ -29,13 +29,14 @@ gem 'koala', '~> 2.0'
 
 gem 'dotenv-rails'
 
+gem 'pry'
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
 end
 
 group :development do
-  gem 'pry'
   gem 'better_errors'
   gem 'uikit'
 end

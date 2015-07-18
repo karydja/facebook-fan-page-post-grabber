@@ -1,6 +1,6 @@
 <h1>Pesquise pelos posts de uma fan page</h1>
 
-<%= form_tag do %>
+<%= form_tag("/posts", method: :get) do %>
   <%= label_tag "Insira o id de uma fan page:" %>
 
   <br>

@@ -2,7 +2,7 @@ FacebookGroupPostGrabber::Application.routes.draw do
 
   root 'home#index'
 
-  post '/' => 'home#get_fan_page_posts', as: :get_fan_page_posts
+  resources :posts
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

@@ -29,15 +29,23 @@ gem 'httparty'
 
 gem 'dotenv-rails'
 
+gem 'pry'
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
 end
 
 group :development do
-  gem 'pry'
   gem 'better_errors'
   gem 'uikit'
+end
+
+group :test do
+  gem 'rspec-rails'
+  gem 'webmock'
+  gem 'vcr'
+  gem 'capybara'
 end
 
 # Use ActiveModel has_secure_password

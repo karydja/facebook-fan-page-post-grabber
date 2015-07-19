@@ -37,7 +37,11 @@ FACEBOOK_ACCESS_TOKEN="12345567890|53C3TC0DE53C3TC0DE53C3TC0DE"
 
 ## Tests
 
-Coming soon (:P)
+You can run the tests with the basic rspec command:
+
+```shell
+rspec
+```
 
 ## License
 
